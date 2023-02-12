@@ -20,13 +20,15 @@ pygame.display.set_caption("Avoid Meteor!")
 gamefont = pygame.font.Font(None,40)
 
 #배경 이미지 설정
-background = pygame.image.load("C:\\Program Files\\Python Workspace\\background.png")
+#배경 이미지 불러와야 합니다.
+background = pygame.image.load("...\\background.png")
 
 to_x = 0
 to_y = 0
 
 #우주선 캐릭터 이미지 설정
-spaceship = pygame.image.load("C:\\Program Files\\Python Workspace\\spaceship.png")
+#우주선 이미지 불러와야 합니다. 
+spaceship = pygame.image.load("...\\spaceship.png")
 spaceship_size = spaceship.get_rect().size
 spaceship_width = spaceship_size[0]
 spaceship_height = spaceship_size[1]
@@ -38,7 +40,8 @@ randomNumber = 30
 MeteorSpeed = 15
 
 #운석 캐릭터 이미지 설정
-meteor = pygame.image.load("C:\\Program Files\\Python Workspace\\meteor.png")
+#운석 이미지 불러와야합니다.
+meteor = pygame.image.load("...\\meteor.png")
 meteor_size = meteor.get_rect().size
 meteor_width = meteor_size[0]
 meteor_height = meteor_size[1]
